@@ -1,8 +1,8 @@
 # Reflection — Lab 19
 
-**Tên:** _<Họ Tên>_
-**Cohort:** _<A20-K1 / A20-K2 / ...>_
-**Path đã chạy:** _<lite | docker | both>_
+**Tên:** _DungLK_2A202600100
+**Cohort:** _A20-K2_
+**Path đã chạy:** _lite_
 
 ---
 
@@ -12,17 +12,23 @@
 > `paraphrase` / `mixed`), và tại sao? Khi nào bạn **không** dùng hybrid
 > (i.e. khi nào pure BM25 hoặc pure vector là lựa chọn đúng)?
 
-_Answer here._
+- **Exact:** BM25 thường thắng do khả năng khớp chính xác các từ khóa kỹ thuật (ví dụ: gRPC, IAM).
+- **Paraphrase:** Vector Search thắng vượt trội nhờ hiểu được ngữ nghĩa và các từ đồng nghĩa (ví dụ: "tự động mở rộng" vs "auto-scaling").
+- **Mixed:** Hybrid (RRF) là lựa chọn tối ưu nhất vì nó kết hợp được sự chính xác của BM25 và độ phủ của Vector.
+
+**Khi nào không dùng Hybrid:**
+- Dùng **Pure BM25** khi dữ liệu là các mã định danh, ID hoặc thuật ngữ cực kỳ đặc thù mà không có biến thể ngữ nghĩa.
+- Dùng **Pure Vector** khi query có độ nhiễu cao, sai chính tả nhiều hoặc khi cần tìm kiếm xuyên ngôn ngữ (cross-lingual) mà từ khóa không khớp nhau.
 
 ---
 
 ## Điều ngạc nhiên nhất khi làm lab này
 
-_(Optional, 1–2 câu)_
+Sự kết hợp giữa Feast và Qdrant giúp Agent có một "trí nhớ" cực kỳ sống động, không chỉ nhớ nội dung mà còn biết cách điều chỉnh tông giọng dựa trên hồ sơ người dùng.
 
 ---
 
 ## Bonus challenge
 
-- [ ] Đã làm bonus (xem `bonus/`)
-- [ ] Pair work với: _<tên đồng đội nếu có>_
+- [x] Đã làm bonus (xem `submission/bonus/`)
+- [ ] Pair work với: _None_

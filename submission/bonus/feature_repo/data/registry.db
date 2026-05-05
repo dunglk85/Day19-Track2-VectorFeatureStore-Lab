@@ -1,0 +1,55 @@
+
+D
+&
+__dummy"
+__dummy_idJai_memory_bonus
+ÌÊæÏ°ª¨ÌÊæÏ°ª¨
+@
+"
+user"user_idJai_memory_bonus
+ÌÊæÏ°ª¨ÌÊæÏ°ª¨1"$0b8a7ae2-b447-4daf-8b2b-e4cfaed90eda*®ÏæÏ ÂÜ2ô
+ª
+user_profileai_memory_bonususer"
+language_preference"
+reading_speed_wpm"
+topic_affinity2€ç„:Ÿevent_timestampZdata/user_profiles.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/user_profiles.parquet’–ÏæÏĞËv"–ÏæÏĞËv@b
+user_id’latestE
+ÌÊæÏ°ª¨®ÏæÏğ®Ü…
+×ãáÀà±¾†€ÙÛÙ
+€ÙÛÙ€ÙÛÙ2Ó
+‰
+user_activityai_memory_bonususer"
+query_count_1h"
+
+last_topic2:Ÿevent_timestampZdata/user_activity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/user_activity.parquet’–ÏæÏĞËv"–ÏæÏĞËv@b
+user_id’latestE
+ÌÊæÏ¸ñÇ®ÏæÏ ÂÜ
+Ç®æÏøŠ¶š€ÙÛÙ
+€ÙÛÙ€ÙÛÙRõ
+¸
+,feast.infra.online_stores.sqlite.SqliteTable"‡
+fD:\AI In Action\Day19-Track2-VectorFeatureStore-Lab\submission\bonus\feature_repo\data\online_store.dbai_memory_bonus_user_activity
+·
+,feast.infra.online_stores.sqlite.SqliteTable"†
+fD:\AI In Action\Day19-Track2-VectorFeatureStore-Lab\submission\bonus\feature_repo\data\online_store.dbai_memory_bonus_user_profileb²event_timestampZdata/user_profiles.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/user_profiles.parquetªai_memory_bonus’ËÊæÏ˜ÊŒÙ"ÌÊæÏğ×„b²event_timestampZdata/user_activity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/user_activity.parquetªai_memory_bonus’ËÊæÏ˜ÊŒÙ"ÌÊæÏ°ª¨Š1
+
+ai_memory_bonus
+ËÊæÏÀÜÄÚËÊæÏÀÜÄÚ’À
+­
+user_profileai_memory_bonus"feature_view*Ê
+«
+user_profileai_memory_bonususer"
+language_preference"
+reading_speed_wpm"
+topic_affinity2€ç„: event_timestampZdata/user_profiles.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/user_profiles.parquet’ËÊæÏ˜ÊŒÙ"ÌÊæÏğ×„@b
+user_id’latest
+ÌÊæÏ°ª¨ÌÊæÏ°ª¨2ÌÊæÏ¸ñÇB$139b4487-9ad1-4237-baad-010d8367bbde
+
+user_activityai_memory_bonus"feature_view*©
+Š
+user_activityai_memory_bonususer"
+query_count_1h"
+
+last_topic2: event_timestampZdata/user_activity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/user_activity.parquet’ËÊæÏ˜ÊŒÙ"ÌÊæÏ°ª¨@b
+user_id’latest
+ÌÊæÏ¸ñÇÌÊæÏ¸ñÇ2ÌÊæÏ¨½èB$480fcc2c-9d19-40e1-87d1-0debb68cb45f
